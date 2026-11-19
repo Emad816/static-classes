@@ -12,5 +12,6 @@ public class Main {
         System.out.println(NameFormatter.format(null, "Emad Aldeen",
                 "M", "Alhanoun", null));
 
+        System.out.println(NameFormatter.format("Emad M Alhanoun"));
     }
 }
