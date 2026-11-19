@@ -18,7 +18,7 @@ public class NameFormatter {
         String result = lastName.trim() + ", ";
 
         if(hasValue(prefix)) {
-            result += prefix.trim() + ". ";
+            result += prefix.trim() + " ";
         }
 
         result += firstName.trim() + " ";
